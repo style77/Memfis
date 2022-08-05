@@ -178,3 +178,7 @@ Status codes used:
 401 - "Wrong credentials." or "Wrong token passed." or "Wrong token passed or token has expired."
 404 - "Couldn't find data..."
 ```
+
+## Executables
+
+You can find all releases [here](https://github.com/Style77/Memfis/releases)

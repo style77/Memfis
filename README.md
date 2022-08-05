@@ -16,7 +16,7 @@ To get executable simply run `go build -o ./builds`
 {
     "username": "root",
     "password": "root"
-    }
+}
 ```
 
 #### Response
@@ -166,3 +166,15 @@ everything else is same as in `GET /data`
 data's type is chaning automatically
 
 ---------
+
+## Errors
+
+Status codes used:
+```200, 400, 401, 404```
+
+#### messages
+```
+400 - "Wrong parameters passed."
+401 - "Wrong credentials." or "Wrong token passed." or "Wrong token passed or token has expired."
+404 - "Couldn't find data..."
+```
